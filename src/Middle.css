@@ -1,0 +1,42 @@
+.container-middle {
+  height: 500px;
+  background-color: #3aafa9;
+}
+
+h2 {
+  padding-top: 100px;
+  color: white;
+  font-size: 40px;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 30px 22%;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.btn-learnmore {
+  margin: 0 auto;
+  display: block;
+  margin-top: 25px;
+  color: white;
+  border: none;
+  padding: 20px 30px;
+  border-radius: 6px;
+  background-color: rgb(23, 37, 42);
+}
+
+.btn-learnmore:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background-color: rgb(159, 90, 253);
+}

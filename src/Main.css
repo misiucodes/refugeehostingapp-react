@@ -1,11 +1,7 @@
-.main {
+.container-main {
   background-color: white !important;
-  padding: 30px 7%;
+  padding: 70px 7%;
   display: flex;
-}
-
-.middle {
-  padding: 30px 7%;
 }
 
 .grid {
@@ -14,7 +10,7 @@
   grid-gap: 1rem;
 }
 
-div.container-left {
+div.container-top-left {
   padding: 2rem;
 }
 
@@ -28,6 +24,12 @@ h1 {
   margin-right: 30px !important;
   overflow-wrap: break-word;
   color: rgb(23, 37, 42);
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-align: center;
 }
 
 .btn-host,

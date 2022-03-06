@@ -1,5 +1,6 @@
 import Navigation from './Navigation';
 import Main from "./Main";
+import Middle from './Middle';
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Navigation />
       <Main />
+      <Middle />
     </div>
   );
 }
