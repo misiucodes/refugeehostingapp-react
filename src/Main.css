@@ -1,0 +1,52 @@
+.main {
+  background-color: white !important;
+  padding: 30px 7%;
+  display: flex;
+}
+
+.middle {
+  padding: 30px 7%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  grid-gap: 1rem;
+}
+
+div.container-left {
+  padding: 2rem;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 4vw;
+  font-size: 60px;
+  font-weight: 700;
+  padding-top: 10%;
+  padding-bottom: 4%;
+  margin-right: 30px !important;
+  overflow-wrap: break-word;
+  color: rgb(23, 37, 42);
+}
+
+.btn-host,
+.btn-findhost {
+  border: none;
+  color: black;
+  border-radius: 6px;
+  padding: 20px 20px;
+  margin-right: 12px;
+}
+
+.btn-host:hover,
+.btn-findhost:hover {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out 0s;
+  background-color: rgb(159, 90, 253);
+  color: white;
+}
+
+img.family {
+  margin-left: 5%;
+}
