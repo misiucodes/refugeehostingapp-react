@@ -14,21 +14,21 @@ export default function GetInvolved() {
 
                 <div className="form-group col-md-6">
                   <label for="inputFirstName">First Name</label>
-                  <input type="text" className="form-control" />
+                  <input type="text" className="form-control" required />
                 </div>
               <div className="form-group col-md-6">
                 <label for="inputLastName">Last Name</label>
-                <input type="text" className="form-control" />
+                <input type="text" className="form-control" required/>
               </div>
             
                 <div className="form-group col-md-6">
                   <label for="inputEmail">Phone Number</label>
-                  <input type="tel" className="form-control" placeholder="e.g. #-###-###-####"/>
+                  <input type="tel" className="form-control" placeholder="e.g. #-###-###-####" required/>
                   <small><em>Note: include country code.</em></small>
                 </div>
               <div className="form-group col-md-6">
                 <label for="inputPassword4">Email</label>
-                <input type="email" className="form-control" />
+                <input type="email" className="form-control" required/>
               </div>
 
          
@@ -39,7 +39,7 @@ export default function GetInvolved() {
           <div className="form-row">
             <div className="form-group col-6">
               <label for="listing-title" className="field-title">Listing title</label>
-              <input type="text" className="form-control" placeholder="Write something descriptive e.g. Safe Haven - 2 bedrooms"/>
+              <input type="text" className="form-control" placeholder="Write something descriptive e.g. Safe Haven - 2 bedrooms" required/>
             </div>
             <div className="form-group col-3">
               <label for="accommodation-type-select" className="field-title">Accommodation Type</label>
@@ -51,7 +51,7 @@ export default function GetInvolved() {
             </div>
           <div className="form-group col-3">
               <label for="guest-select" className="field-title">Guests</label>
-              <select className="form-control">
+              <select className="form-control" required>
                 <option>1</option>
                 <option>2</option>
                 <option>3</option>
@@ -68,16 +68,16 @@ export default function GetInvolved() {
           <div className="form-row">
           <div className="form-group col-6">
             <label for="city" className="field-title">City</label>
-            <input type="text" className="form-control" />
+            <input type="text" className="form-control" required/>
           </div>
           <div className="form-group col-6">
             <label for="province" className="field-title">Province</label>
-            <input type="text" className="form-control" />
+            <input type="text" className="form-control" required/>
           </div>
           </div>
           <div className="form-row">
             <div className="form-group col-12">
-              <label for="desription-textbox" className="field-title">Description</label>
+              <label for="desription-textbox" className="field-title" required>Description</label>
               <textarea className="form-control description-textarea" rows="3" placeholder="Describe the space you are offering to provide potential guests a better idea of the accommodation details."></textarea>
           </div>
           <div className="form-group col-12">
