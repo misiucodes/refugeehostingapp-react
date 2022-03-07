@@ -8,6 +8,33 @@ export default function GetInvolved() {
       <Navigation />
       <div className="title">Offer to host your space to refugees in need</div>
       <form>
+        <div className="container-contact-info">
+          <div className="subtitle">Contact Information</div>
+              <div className="form-row">
+
+                <div className="form-group col-md-6">
+                  <label for="inputFirstName">First Name</label>
+                  <input type="text" className="form-control" />
+                </div>
+              <div className="form-group col-md-6">
+                <label for="inputLastName">Last Name</label>
+                <input type="text" className="form-control" />
+              </div>
+            
+                <div className="form-group col-md-6">
+                  <label for="inputEmail">Phone Number</label>
+                  <input type="tel" className="form-control" placeholder="e.g. #-###-###-####"/>
+                  <small><em>Note: include country code.</em></small>
+                </div>
+              <div className="form-group col-md-6">
+                <label for="inputPassword4">Email</label>
+                <input type="email" className="form-control" />
+              </div>
+
+         
+          </div>
+        </div>
+
         <div className="subtitle">Create a Listing</div>
           <div className="form-row">
             <div className="form-group col-6">
@@ -60,58 +87,58 @@ export default function GetInvolved() {
                 <div className="row justify-content-start row-tags">
 
                   <div className="col-2">
-                    <div class="form-check">
+                    <div className="form-check">
                       <div className="tag-category">Preferences</div>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                        <label class="form-check-label" for="defaultCheck1">Kid-friendly</label>
+                        <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                        <label className="form-check-label" for="defaultCheck1">Kid-friendly</label>
                     </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label class="form-check-label" for="defaultCheck1">Pet-friendly</label>
+                    <div className="form-check">
+                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label className="form-check-label" for="defaultCheck1">Pet-friendly</label>
                     </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label class="form-check-label" for="defaultCheck1">Smoke-free</label>
+                    <div className="form-check">
+                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label className="form-check-label" for="defaultCheck1">Smoke-free</label>
                     </div>
                   </div>
 
                   <div className="col-2">
-                    <div class="form-check">
+                    <div className="form-check">
                       <div className="tag-category">Supports</div>
-                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                        <label class="form-check-label" for="defaultCheck1">Child care</label>
+                        <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                        <label className="form-check-label" for="defaultCheck1">Child care</label>
                     </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label class="form-check-label" for="defaultCheck1">Elderly assistance</label>
+                    <div className="form-check">
+                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label className="form-check-label" for="defaultCheck1">Elderly assistance</label>
                     </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label class="form-check-label" for="defaultCheck1">Transportation</label>
+                    <div className="form-check">
+                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label className="form-check-label" for="defaultCheck1">Transportation</label>
                     </div>
                   </div>
 
                  <div className="col-2">
-                  <div class="form-check">
+                  <div className="form-check">
                     <div className="tag-category">Languages</div>
-                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label class="form-check-label" for="defaultCheck1">Arabic Speaker</label>
+                       <input className="form-check-input" type="checkbox" name="language" value="arabic" />
+                      <label className="form-check-label" for="defaultCheck1">Arabic Speaker</label>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">English Speaker</label>
+                  <div className="form-check">
+                    <input className="form-check-input" type="checkbox" name="language" value="english" />
+                    <label className="form-check-label" for="defaultCheck1">English Speaker</label>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">French Speaker</label>
+                  <div className="form-check">
+                    <input className="form-check-input" type="checkbox" name="language" value="french" />
+                    <label className="form-check-label" for="defaultCheck1">French Speaker</label>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">Russian Speaker</label>
+                  <div className="form-check">
+                    <input className="form-check-input" type="checkbox" name="language" value="russian" />
+                    <label className="form-check-label" for="defaultCheck1">Russian Speaker</label>
                   </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">Ukrainian Speaker</label>
+                  <div className="form-check">
+                    <input className="form-check-input" type="checkbox" name="language" value="ukrainian" />
+                    <label className="form-check-label" for="defaultCheck1">Ukrainian Speaker</label>
                   </div>
                 </div>
               </div>
