@@ -34,16 +34,16 @@ button {
   background-color: rgb(159, 90, 253);
 }
 
-.nav-links {
+.nav-item {
   display: inline-block;
   list-style: none;
 }
 
-.nav-links li {
+.nav-item li {
   display: inline-block;
   padding: 0 20px;
 }
 
-.nav-links li a:hover {
+.nav-link:hover {
   color: rgb(159, 90, 253);
 }
