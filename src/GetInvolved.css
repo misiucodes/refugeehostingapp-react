@@ -1,5 +1,5 @@
 form {
-  padding: 5% 10%;
+  padding: 5% 20%;
 }
 
 .title {
@@ -16,4 +16,12 @@ form {
   font-size: 20px;
   padding-bottom: 20px;
   color: #2b7a78;
+}
+
+.field-title {
+  font-weight: 500;
+}
+textarea.description-textarea {
+  overflow: auto;
+  resize: vertical;
 }

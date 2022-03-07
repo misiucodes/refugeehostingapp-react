@@ -9,50 +9,72 @@ export default function GetInvolved() {
       <div className="title">Offer to host your space to refugees in need</div>
       <form>
         <div className="subtitle">Create a Listing</div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="listing-title">Listing title</label>
-              <input type="text" class="form-control" placeholder="Write something descriptive e.g. Safe Haven - 2 bedrooms"/>
+          <div className="form-row">
+            <div className="form-group col-6">
+              <label for="listing-title" className="field-title">Listing title</label>
+              <input type="text" className="form-control" placeholder="Write something descriptive e.g. Safe Haven - 2 bedrooms"/>
             </div>
-            <div class="form-group col-md-6">
-              <label for="description">Description</label>
-              <input type="text" class="form-control" placeholder="Provide details about your space"/>
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="city">City</label>
-            <input type="text" class="form-control" />
-          </div>
-          <div class="form-group">
-            <label for="badges">Badges</label>
-            <input type="text" class="form-control" placeholder="Apartment, studio, or floor"/>
-          </div>
-          <div class="form-row">
-            <div class="form-group col-md-6">
-              <label for="inputCity">City</label>
-              <input type="text" class="form-control" id="inputCity"/>
-            </div>
-            <div class="form-group col-md-4">
-              <label for="inputState">State</label>
-              <select id="inputState" class="form-control">
-                <option selected>Choose...</option>
-                <option>...</option>
+            <div className="form-group col-3">
+              <label for="accommodation-type-select" className="field-title">Accommodation Type</label>
+              <select className="form-control">
+                <option>Entire place</option>
+                <option>Private room</option>
+                <option>Basement</option>
               </select>
             </div>
-            <div class="form-group col-md-2">
-              <label for="inputZip">Zip</label>
-              <input type="text" class="form-control" id="inputZip"/>
-            </div>
+          <div className="form-group col-3">
+              <label for="guest-select" className="field-title">Guests</label>
+              <select className="form-control">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+              </select>
           </div>
-          <div class="form-group">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck"/>
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
           </div>
-          <button type="submit" class="btn btn-primary">Sign in</button>
+          <div className="form-row">
+          <div className="form-group col-6">
+            <label for="city" className="field-title">City</label>
+            <input type="text" className="form-control" />
+          </div>
+          <div className="form-group col-6">
+            <label for="province" className="field-title">Province</label>
+            <input type="text" className="form-control" />
+          </div>
+          </div>
+          <div className="form-row">
+            <div className="form-group col-12">
+              <label for="desription-textbox" className="field-title">Description</label>
+              <textarea className="form-control description-textarea" rows="3" placeholder="Describe the space you are offering to provide potential guests a better idea of the accommodation details."></textarea>
+          </div>
+          <div className="form-group col-12">
+            <label for="inputCity" className="field-title">Tags</label>
+              <div>Add tags to help potential guests find a suitable accommodation based on their needs.</div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">Kid-friendly</label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">Pet-friendly</label>
+                </div><div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">Smoke-free</label>
+                </div>
+
+
+                
+          
+          </div>
+          </div>
+         
+          <button type="submit" className="btn btn-info">Create Listing</button>
       </form>
     </div>
   );
