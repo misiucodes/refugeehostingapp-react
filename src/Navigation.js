@@ -1,6 +1,5 @@
 import React from "react";
 import logo from "./logo.svg";
-import Home from "./Home";
 import "./Navigation.css";
 import {Link} from "react-router-dom";
 
@@ -26,7 +25,6 @@ export default function Navigation() {
           </ul>
         </nav>
       </header>
-      <Home />
     </div>
   );
 }

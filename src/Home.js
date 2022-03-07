@@ -4,7 +4,7 @@ import HomepageBanner from "./HomepageBanner";
 import Navigation from "./Navigation";
 import family from "./family.svg";
 
-export default function Homepage() {
+export default function Home() {
   return (
     <div className="homepage">
       <Navigation />

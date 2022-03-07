@@ -1,0 +1,19 @@
+form {
+  padding: 5% 10%;
+}
+
+.title {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 4%;
+}
+
+.subtitle {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 20px;
+  color: #2b7a78;
+}
