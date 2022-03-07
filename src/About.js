@@ -6,17 +6,17 @@ export default function About() {
   return (
       <div className="about">
         <Navigation />
-        <div class="container">
-          <div class="row align-items-center my-5">
-            <div class="col-auto">
+        <div className="container">
+          <div className="row align-items-center my-5">
+            <div className="col-auto">
               <img
-                class="img-fluid rounded mb-4 mb-lg-0"
+                className="img-fluid rounded mb-4 mb-lg-0"
                 src="http://placehold.it/900x400"
                 alt=""
               />
             </div>
-            <div class="col-auto">
-              <h1 class="font-weight-light">About</h1>
+            <div className="col-auto">
+              <h1 className="font-weight-light">About</h1>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy text
