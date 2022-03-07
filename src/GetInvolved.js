@@ -55,26 +55,69 @@ export default function GetInvolved() {
           </div>
           <div className="form-group col-12">
             <label for="inputCity" className="field-title">Tags</label>
-              <div>Add tags to help potential guests find a suitable accommodation based on their needs.</div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">Kid-friendly</label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">Pet-friendly</label>
-                </div><div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                    <label class="form-check-label" for="defaultCheck1">Smoke-free</label>
-                </div>
+              <div className="pb-3">Add tags to help potential guests find a suitable accommodation based on their needs.</div>
 
+                <div className="row justify-content-start row-tags">
 
-                
-          
+                  <div className="col-2">
+                    <div class="form-check">
+                      <div className="tag-category">Preferences</div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                        <label class="form-check-label" for="defaultCheck1">Kid-friendly</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label class="form-check-label" for="defaultCheck1">Pet-friendly</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label class="form-check-label" for="defaultCheck1">Smoke-free</label>
+                    </div>
+                  </div>
+
+                  <div className="col-2">
+                    <div class="form-check">
+                      <div className="tag-category">Supports</div>
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                        <label class="form-check-label" for="defaultCheck1">Child care</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label class="form-check-label" for="defaultCheck1">Elderly assistance</label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label class="form-check-label" for="defaultCheck1">Transportation</label>
+                    </div>
+                  </div>
+
+                 <div className="col-2">
+                  <div class="form-check">
+                    <div className="tag-category">Languages</div>
+                       <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                      <label class="form-check-label" for="defaultCheck1">Arabic Speaker</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">English Speaker</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">French Speaker</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">Russian Speaker</label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
+                    <label class="form-check-label" for="defaultCheck1">Ukrainian Speaker</label>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-          </div>
-         
-          <button type="submit" className="btn btn-info">Create Listing</button>
+          <button type="submit" className="btn btn-info btn-createlisting">Create Listing</button>
       </form>
     </div>
   );

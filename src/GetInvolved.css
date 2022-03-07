@@ -21,7 +21,19 @@ form {
 .field-title {
   font-weight: 500;
 }
-textarea.description-textarea {
-  overflow: auto;
-  resize: vertical;
+
+.tag-category {
+  text-transform: uppercase;
+  color: rgb(165, 165, 165);
+  font-size: 13px;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.btn-createlisting {
+  margin-top: 10px;
+}
+
+.row-tags {
+  padding-top: 20px;
 }
