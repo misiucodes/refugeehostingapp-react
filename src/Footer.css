@@ -1,0 +1,19 @@
+footer {
+  background-color: rgb(23, 37, 42);
+  background-size: cover;
+  padding: 10px 8%;
+  height: 150px;
+}
+
+.logo {
+  margin-top: 10px;
+}
+
+.copyright {
+  color: white;
+  font-size: 12px;
+  font-family: "Montserrat", sans-serif;
+  display: inline-block;
+  float: right;
+  margin-top: 45px;
+}

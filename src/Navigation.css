@@ -7,11 +7,6 @@ header {
   padding: 3% 8%;
 }
 
-img.logo {
-  padding: 13px 10px;
-  cursor: pointer;
-}
-
 li,
 a,
 button {
@@ -32,6 +27,11 @@ button {
 
 .btn-contact:hover {
   background-color: rgb(159, 90, 253);
+}
+
+.logo {
+  padding: 13px 10px;
+  cursor: pointer;
 }
 
 .nav-item {
