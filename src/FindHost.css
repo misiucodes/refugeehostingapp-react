@@ -68,5 +68,10 @@ input[type="search"]::-webkit-search-results-decoration {
   font-size: 16px;
   margin-top: 12px;
   margin-left: 12px;
+  color: white;
+  position: relative;
+}
+
+.search-icon:hover {
   cursor: pointer !important;
 }
