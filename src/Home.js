@@ -1,13 +1,13 @@
 import React from "react";
 import "./Home.css";
 import HomepageBanner from "./HomepageBanner";
-import Navigation from "./Navigation";
+import Navbar from "./Navbar";
 import family from "./family.svg";
 
 export default function Home() {
   return (
     <div className="homepage">
-      <Navigation />
+      <Navbar />
       <div className="container-main">
         <section className="main grid">
           <div className="container-top-left">

@@ -1,0 +1,161 @@
+.fa-bars {
+  color: #fff;
+}
+
+.menu-icon {
+  display: none;
+  color: white;
+}
+
+.navbar {
+  background: rgb(23, 37, 42);
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+
+.navbar-icon {
+  margin-right: 0.5rem;
+}
+
+.navbar-logo {
+  justify-self: start;
+  cursor: pointer;
+  display: flex;
+  margin-top: -21px;
+  margin-left: -40px;
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: end;
+}
+
+.container {
+  z-index: 1;
+  width: 100%;
+  max-width: 1480px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-top: 9px;
+}
+
+li,
+a {
+  color: #edf0f1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+
+.nav-item {
+  display: inline-block;
+  list-style: none;
+}
+
+.nav-item li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-link:hover {
+  color: rgb(159, 90, 253);
+}
+
+@media screen and (max-width: 960px) {
+  .nav-item {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    justify-content: center !important;
+  }
+
+  .nav-menu.active {
+    background: rgb(23, 37, 42);
+    left: 0;
+    opacity: 1;
+    transition: all 0.6s ease;
+    z-index: 1;
+  }
+
+  .nav-links {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+  }
+
+  .nav-links:hover {
+    color: rgb(159, 90, 253);
+    transform: scale(1.2);
+    transition: all 0.3s ease;
+  }
+
+  .nav-item {
+    width: 100%;
+  }
+
+  .nav-item:hover {
+    border: none;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(19%, 16%);
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: white;
+  }
+
+  .fa-times {
+    color: #fff;
+    font-size: 2rem;
+  }
+
+  .nav-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 56px;
+  }
+}

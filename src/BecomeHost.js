@@ -1,11 +1,11 @@
 import React from "react";
-import Navigation from "./Navigation";
-import "./GetInvolved.css";
+import Navbar from "./Navbar";
+import "./BecomeHost.css";
 
-export default function GetInvolved() {
+function BecomeHost() {
   return (
     <div>
-      <Navigation />
+      <Navbar />
       <div className="title">Offer to host your space to refugees in need</div>
       <form className="form-becomehost">
         <div className="container-contact-info">
@@ -148,3 +148,5 @@ export default function GetInvolved() {
     </div>
   );
 }
+
+export default BecomeHost;
