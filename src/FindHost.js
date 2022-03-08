@@ -15,9 +15,9 @@ export default function FindHost() {
         <div className="row search-engine">
           <div className="col-12 search-bar">
             <input className="form-control form-control-lg search-field" type="search" placeholder="Search a city..." />
-            <a href="#" className="btn-search" rel="noreferrer">
+            <button className="btn-search">
               <FontAwesomeIcon icon={faMagnifyingGlass} className="search-icon"/>
-            </a>
+            </button>
           </div>
         </div>
       </form>
