@@ -7,7 +7,9 @@ export default function Navigation() {
   return (
     <div>
       <header>
-        <img src={logo} alt="House of Refuge logo" width="130" className="img-fluid logo"/>
+        <a href="/" rel="noreferrer">
+          <img src={logo} alt="House of Refuge logo" width="130" className="img-fluid logo"/>
+        </a>
         <nav>
           <ul className="navbar ml-auto">
             <li className="nav-item">

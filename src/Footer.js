@@ -5,7 +5,9 @@ import "./Footer.css";
 export default function Footer() {
   return (
     <footer>
-      <img src={logo} className="logo" />
+      <a href="/" rel="noreferrer">
+        <img src={logo} className="logo-footer" />
+      </a>
       <div className="copyright">© 2022 House of Refuge. All rights reserved.</div>
     </footer>
   );

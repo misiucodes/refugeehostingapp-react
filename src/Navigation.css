@@ -18,6 +18,11 @@ button {
   transition: all 0.3s ease 0s;
 }
 
+.navbar {
+  padding-bottom: 0;
+  margin-top: 24px;
+}
+
 .btn-contact {
   background-color: #3aafa9;
   padding: 10px 11px;

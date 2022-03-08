@@ -2,8 +2,17 @@ form {
   padding: 5% 20%;
 }
 
+.btn-createlisting {
+  margin-top: 5% !important;
+  line-height: 2.5;
+}
+
 .container-contact-info {
   padding-bottom: 5%;
+}
+
+.field-title {
+  font-weight: 500;
 }
 
 .title {
@@ -22,23 +31,12 @@ form {
   color: #2b7a78;
 }
 
-.field-title {
-  font-weight: 500;
-}
-
 .tag-category {
   text-transform: uppercase;
   color: rgb(165, 165, 165);
   font-size: 13px;
   margin-bottom: 5px;
   letter-spacing: 0.5px;
-}
-
-.btn-createlisting {
-  margin-top: 5% !important;
-  display: block;
-  margin: 0 auto;
-  line-height: 2.5;
 }
 
 .row-tags {

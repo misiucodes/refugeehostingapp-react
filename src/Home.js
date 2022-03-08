@@ -12,8 +12,12 @@ export default function Home() {
         <section className="main grid">
           <div className="container-top-left">
             <h1>Give people a place of refuge in times of crisis.</h1>
-            <button className="btn-host">Become a host</button>
-            <button className="btn-findhost">Find a host</button>
+            <a href="/getinvolved" rel="noreferrer">
+              <button className="btn-host">Become a host</button>
+            </a>
+            <a href="/findahost" rel="noreferrer">
+              <button className="btn-findhost">Find a host</button>
+            </a>
           </div>
           <div className="container-top-right">
             <img src={family} className="img-fluid family" alt="Mother, Father and child walking with a globe in the background." width="500" />
