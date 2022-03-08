@@ -15,10 +15,14 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+input[type="search" i] {
+  font-family: "Montserrat", sans-serif;
+}
+
 .background-filter {
   width: 100%;
   height: 836px !important;
-  background-color: rgba(58, 175, 169, 0.8);
+  background-color: rgba(58, 175, 169, 0.7);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -41,9 +45,16 @@ input[type="search"]::-webkit-search-results-decoration {
   cursor: pointer;
 }
 
+.form-findhost {
+  position: relative;
+  transform: translate(0, -1200%);
+  margin: auto 20%;
+}
+
 .hero-container {
   background-image: url("neighbourhood.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: 0px -50px;
   background-color: rgba(58, 175, 169, 0.8);
   height: 950px;
@@ -58,10 +69,6 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .search-field {
   border-radius: 30px !important;
-}
-
-.search-engine {
-  margin-top: -60%;
 }
 
 .search-icon {

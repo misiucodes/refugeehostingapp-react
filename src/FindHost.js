@@ -11,7 +11,7 @@ export default function FindHost() {
       <Navigation />
       <div className="background-filter"></div>
       <h4>Find a place to stay</h4>
-      <form>
+      <form className="form-findhost">
         <div className="row search-engine">
           <div className="col-12 search-bar">
             <input className="form-control form-control-lg search-field" type="search" placeholder="Search a city..." />

@@ -7,7 +7,7 @@ export default function GetInvolved() {
     <div>
       <Navigation />
       <div className="title">Offer to host your space to refugees in need</div>
-      <form>
+      <form className="form-becomehost">
         <div className="container-contact-info">
           <div className="subtitle">Contact Information</div>
               <div className="form-row">
@@ -22,16 +22,15 @@ export default function GetInvolved() {
               </div>
             
                 <div className="form-group col-md-6">
-                  <label for="inputEmail">Phone Number</label>
+                  <label for="inputPhone">Phone Number</label>
                   <input type="tel" className="form-control" placeholder="e.g. #-###-###-####" required/>
                   <small><em>Note: include country code.</em></small>
                 </div>
               <div className="form-group col-md-6">
-                <label for="inputPassword4">Email</label>
+                <label for="inputEmail">Email</label>
                 <input type="email" className="form-control" required/>
               </div>
 
-         
           </div>
         </div>
 
@@ -77,11 +76,11 @@ export default function GetInvolved() {
           </div>
           <div className="form-row">
             <div className="form-group col-12">
-              <label for="desription-textbox" className="field-title" required>Description</label>
-              <textarea className="form-control description-textarea" rows="3" placeholder="Describe the space you are offering to provide potential guests a better idea of the accommodation details."></textarea>
+              <label for="desription" className="field-title">Description</label>
+              <textarea className="form-control description-text" rows="3" required placeholder="Describe the space you are offering to provide potential guests a better idea of the accommodation details."></textarea>
           </div>
           <div className="form-group col-12">
-            <label for="inputCity" className="field-title">Tags</label>
+            <label for="tags" className="field-title">Tags</label>
               <div className="pb-3">Add tags to help potential guests find a suitable accommodation based on their needs.</div>
 
                 <div className="row justify-content-start row-tags">
@@ -89,62 +88,62 @@ export default function GetInvolved() {
                   <div className="col-2">
                     <div className="form-check">
                       <div className="tag-category">Preferences</div>
-                        <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                        <label className="form-check-label" for="defaultCheck1">Kid-friendly</label>
+                        <input className="form-check-input" type="checkbox" value="kid-friendly" id="kid-friendly"/>
+                        <label className="form-check-label">Kid-friendly</label>
                     </div>
                     <div className="form-check">
-                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label className="form-check-label" for="defaultCheck1">Pet-friendly</label>
+                      <input className="form-check-input" type="checkbox" value="pet-friendly" id="pet-friendly"/>
+                      <label className="form-check-label">Pet-friendly</label>
                     </div>
                     <div className="form-check">
-                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label className="form-check-label" for="defaultCheck1">Smoke-free</label>
+                      <input className="form-check-input" type="checkbox" value="smoke-free" id="smoke-free"/>
+                      <label className="form-check-label">Smoke-free</label>
                     </div>
                   </div>
 
                   <div className="col-2">
                     <div className="form-check">
                       <div className="tag-category">Supports</div>
-                        <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                        <label className="form-check-label" for="defaultCheck1">Child care</label>
+                        <input className="form-check-input" type="checkbox" value="child-care" id="child-care"/>
+                        <label className="form-check-label">Child care</label>
                     </div>
                     <div className="form-check">
-                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label className="form-check-label" for="defaultCheck1">Elderly assistance</label>
+                      <input className="form-check-input" type="checkbox" value="elderly-assist" id="elderly-assist"/>
+                      <label className="form-check-label">Elderly assistance</label>
                     </div>
                     <div className="form-check">
-                      <input className="form-check-input" type="checkbox" value="" id="defaultCheck1"/>
-                      <label className="form-check-label" for="defaultCheck1">Transportation</label>
+                      <input className="form-check-input" type="checkbox" value="transport" id="transport"/>
+                      <label className="form-check-label">Transportation</label>
                     </div>
                   </div>
 
                  <div className="col-2">
                   <div className="form-check">
                     <div className="tag-category">Languages</div>
-                       <input className="form-check-input" type="checkbox" name="language" value="arabic" />
-                      <label className="form-check-label" for="defaultCheck1">Arabic Speaker</label>
+                       <input className="form-check-input" type="checkbox" value="arabic" id="arabic" />
+                      <label className="form-check-label">Arabic Speaker</label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="checkbox" name="language" value="english" />
-                    <label className="form-check-label" for="defaultCheck1">English Speaker</label>
+                    <input className="form-check-input" type="checkbox" value="english" id="english" />
+                    <label className="form-check-label">English Speaker</label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="checkbox" name="language" value="french" />
-                    <label className="form-check-label" for="defaultCheck1">French Speaker</label>
+                    <input className="form-check-input" type="checkbox" value="french" id="french" />
+                    <label className="form-check-label">French Speaker</label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="checkbox" name="language" value="russian" />
-                    <label className="form-check-label" for="defaultCheck1">Russian Speaker</label>
+                    <input className="form-check-input" type="checkbox" value="russian" id="russian" />
+                    <label className="form-check-label">Russian Speaker</label>
                   </div>
                   <div className="form-check">
-                    <input className="form-check-input" type="checkbox" name="language" value="ukrainian" />
-                    <label className="form-check-label" for="defaultCheck1">Ukrainian Speaker</label>
+                    <input className="form-check-input" type="checkbox" value="ukrainian" id="ukrainian" />
+                    <label className="form-check-label">Ukrainian Speaker</label>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <button type="submit" className="btn btn-info btn-createlisting">Create Listing</button>
+          <button type="submit" className="btn btn-createlisting">Create Listing</button>
       </form>
     </div>
   );
