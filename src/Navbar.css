@@ -24,7 +24,7 @@
 }
 
 .navbar-logo {
-  justify-self: start;
+  justify-self: flex-start;
   cursor: pointer;
   display: flex;
   margin-top: -21px;
@@ -37,7 +37,7 @@
   justify-content: center;
   list-style: none;
   text-align: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .navbar-container {
