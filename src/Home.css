@@ -1,6 +1,6 @@
 .container-main {
   background-color: white !important;
-  padding: 70px 7%;
+  padding: 70px 10%;
   display: flex;
 }
 
@@ -10,7 +10,7 @@
   grid-gap: 1rem;
 }
 
-div.container-top-left {
+.container-top-left {
   padding: 2rem;
 }
 
@@ -26,29 +26,38 @@ h1 {
   color: rgb(23, 37, 42);
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  text-align: center;
-}
-
-.btn-host,
-.btn-findhost {
-  border: none;
-  border-radius: 6px;
-  padding: 20px 20px;
-  margin-right: 12px;
-  color: rgb(23, 37, 42);
-}
-
-.btn-host:hover,
-.btn-findhost:hover {
-  cursor: pointer;
-  transition: all 0.3s ease-in-out 0s;
-  background-color: rgb(159, 90, 253);
-  color: white;
-}
-
-img.family {
+.hero-img {
   margin-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+  .container-main {
+    padding: 40px 5%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container-main {
+    padding: 40px 5%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .hero-img {
+    margin: 0;
+  }
 }

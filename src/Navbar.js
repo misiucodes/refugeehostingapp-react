@@ -31,7 +31,7 @@ function Navbar() {
   return (
     <IconContext.Provider value={{color: "#fff"}}>
     <div className="navbar">
-      <div className="navbar-container container">
+      <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>          
           <img src={logo} alt="House of Refuge logo" width="130" className="img-fluid logo"/>
         </Link>
