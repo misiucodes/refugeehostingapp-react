@@ -52,14 +52,9 @@
 }
 
 .btn--outline:hover,
-.btn--mobile:hover {
+.btn--medium:hover .btn--mobile:hover {
   background: rgb(159, 90, 253);
   transition: all 0.3s ease-in-out;
-}
-.btn--medium:hover {
-  background-color: rgb(23, 37, 42);
-  transition: all 0.3s ease-in-out;
-  border: rgb(23, 37, 42);
   color: white;
 }
 
