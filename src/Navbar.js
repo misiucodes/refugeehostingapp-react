@@ -47,8 +47,8 @@ function Navbar() {
           </li>
           <li className="nav-btn">
             {button ? (
-              <Link to="/becomeahost" className="btn--link">
-                <Button buttonStyle="btn--outline" onClick={closeMobileMenu}>Become a Host</Button>
+              <Link to="/becomeahost" className="btn--link" onClick={closeMobileMenu}>
+                <Button buttonStyle="btn--outline">Become a Host</Button>
               </Link>
               ): (
                 <Link to="/becomeahost" className="btn--link">
