@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./Navbar";
 import "./FindHost.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
@@ -8,7 +7,6 @@ import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 export default function FindHost() {
   return (
     <div className="hero-container">
-      <Navbar />
       <div className="background-filter"></div>
       <h4>Find a place to stay</h4>
       <form className="form-findhost">

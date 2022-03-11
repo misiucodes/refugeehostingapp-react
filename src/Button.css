@@ -1,3 +1,6 @@
+/*--primary: rgb(159, 90, 253);
+rgb(23, 37, 42);*/
+
 :root {
   --primary: rgb(159, 90, 253);
 }
@@ -12,23 +15,23 @@
 }
 
 .btn--primary {
-  background-color: rgb(159, 90, 253);
+  background-color: var(--primary);
   color: white;
-  padding: 10px 20px;
-  border: 1px solid rgb(159, 90, 253);
+  font-weight: 500;
+  border: 1px solid var(--primary);
 }
 
 .btn--outline {
   background-color: transparent;
   color: #fff;
-  padding: 10px 8px;
+  padding: 8px 20px;
+  font-size: 15px;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
 }
 
 .btn--medium {
-  padding: 10px 10px;
-  margin-right: 8px;
+  padding: 8px 15px;
   font-size: 15px;
   font-weight: 500;
 }
@@ -51,18 +54,23 @@
   transition: all 0.3s ease-out;
 }
 
-.btn--outline:hover,
-.btn--medium:hover .btn--mobile:hover {
-  background: rgb(159, 90, 253);
-  transition: all 0.3s ease-in-out;
+.btn--wide {
+  padding: 12px 64px;
+  font-size: 20px;
+}
+
+.btn--large:hover,
+.btn--medium:hover,
+.btn--mobile:hover {
+  transition: all 0.3s ease-out;
+  background: rgb(98, 10, 221);
   color: white;
 }
 
-.btn--large:hover {
-  transition: all 0.3s ease-in-out;
-  background: rgb(23, 37, 42);
-  color: white;
-  border: none;
+.btn--wide:hover {
+  color: #fff;
+  background-color: #f00946;
+  transition: all 0.2s ease-out;
 }
 
 .btn-link {

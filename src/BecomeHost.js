@@ -1,11 +1,10 @@
 import React from "react";
-import Navbar from "./Navbar";
+import {Button} from "./Button";
 import "./BecomeHost.css";
 
 function BecomeHost() {
   return (
     <div>
-      <Navbar />
       <div className="title">Offer to host your space to refugees in need</div>
       <form className="form-becomehost">
         <div className="container-contact-info">
@@ -143,7 +142,7 @@ function BecomeHost() {
               </div>
             </div>
           </div>
-          <button type="submit" className="btn btn-createlisting">Create Listing</button>
+          <Button buttonSize="btn--large">Create Listing</Button>
       </form>
     </div>
   );
