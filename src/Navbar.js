@@ -40,19 +40,19 @@ function Navbar() {
         </div>
         <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/" className="nav-link" onClick={closeMobileMenu}>Home</Link>
           </li>
           <li className="nav-item">
-            <Link to="/findahost" className="nav-link">Find a Host</Link>
+            <Link to="/findahost" className="nav-link" onClick={closeMobileMenu}>Find a Host</Link>
           </li>
           <li className="nav-btn">
             {button ? (
               <Link to="/becomeahost" className="btn--link">
-                <Button buttonStyle="btn--outline">Become a Host</Button>
+                <Button buttonStyle="btn--outline" onClick={closeMobileMenu}>Become a Host</Button>
               </Link>
               ): (
                 <Link to="/becomeahost" className="btn--link">
-                  <Button buttonStyle="btn--outline" buttonSize="btn--mobile">
+                  <Button buttonStyle="btn--outline" buttonSize="btn--mobile" onClick={closeMobileMenu}>
                       Become a Host
                   </Button>
                 </Link>
