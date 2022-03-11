@@ -16,14 +16,14 @@ export const homeObjTwo = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: '100% SECURE',
-  headline: 'Stay protected 24/7 anywhere anytime',
+  topLine: '',
+  headline: 'Help for people fleeing Ukraine',
   description:
-    'We have you covered no matter where you are located. Over 140 locations worldwide to ensure you have access anytime',
+    'Right now, refugees fleeing from the war in Ukraine are in need of urgent temporary housing. Your space can provide comfort to people making a live-saving journey and be a powerful way of welcoming those fleeing to help integrate within the community faster.',
   buttonLabel: 'Learn More',
   imgStart: '',
-  img: 'images/svg-5.svg',
-  alt: 'Vault'
+  img: '',
+  alt: ''
 };
 
 export const homeObjThree = {
