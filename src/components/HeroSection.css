@@ -43,7 +43,7 @@
 
 .heading {
   margin-bottom: 24px;
-  font-size: 60px;
+  font-size: 57px;
   line-height: 1.1;
   font-weight: 600;
   color: #f7f8fa;
@@ -59,7 +59,7 @@
 }
 
 .home__hero-subtitle {
-  max-width: 440px;
+  max-width: 498px;
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
@@ -72,8 +72,8 @@
 .home__hero-img {
   max-width: 95%;
   margin-top: 0;
-  margin-right: 0;
-  margin-left: 90px;
+  margin-right: 20px;
+  margin-left: 30px;
   padding-right: 0;
 }
 
