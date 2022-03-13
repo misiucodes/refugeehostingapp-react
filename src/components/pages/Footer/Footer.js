@@ -1,14 +1,16 @@
 import React from "react";
 import "./Footer.css";
 
-
-export default function Footer() {
+function Footer2() {
+ 
   return (
-    <footer>
-      <a href="/" rel="noreferrer">
-        <img src="/images/logo.svg" className="logo-footer" alt="House of Refuge logo"/>
-      </a>
-      <div className="copyright">Copyright &copy; 2022<script>document.write(new Date().getFullYear())</script> House of Refuge. All Rights Reserved.</div>
-    </footer>
+  
+    <div className="footer">
+      <div className="footer-container">
+        <div className="copyright">Copyright &copy; 2022<script>document.write(new Date().getFullYear())</script> House of Refuge. All Rights Reserved.</div>
+      </div>
+    </div>
   );
 }
+
+export default Footer2;
