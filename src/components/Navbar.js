@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import logo from "./logo.svg";
 import "./Navbar.css";
 import { Button } from "./Button";
 import { Link } from "react-router-dom";
@@ -33,7 +32,7 @@ function Navbar() {
     <div className="navbar">
       <div className="navbar-container">
         <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>          
-          <img src={logo} alt="House of Refuge logo" width="130" className="img-fluid logo"/>
+          <img src="images/logo.svg" alt="House of Refuge logo" width="130" className="img-fluid logo"/>
         </Link>
         <div className="menu-icon" onClick={handleClick}>
           {click ? <FaTimes /> : <FaBars /> }

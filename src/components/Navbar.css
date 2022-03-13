@@ -19,10 +19,6 @@
   z-index: 999;
 }
 
-.navbar-icon {
-  margin-right: 0.5rem;
-}
-
 .navbar-logo {
   justify-self: flex-start;
   cursor: pointer;
@@ -129,7 +125,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    transform: translate(25%, 50%);
+    transform: translate(47%, 60%);
   }
 
   .menu-icon {
