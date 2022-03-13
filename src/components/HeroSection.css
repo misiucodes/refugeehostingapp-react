@@ -103,6 +103,10 @@ img {
     padding-bottom: 65px;
   }
 
+  .heading {
+    font-size: 44px;
+  }
+
   .col {
     max-width: 100%;
     flex-basis: 100%;
