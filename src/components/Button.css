@@ -25,15 +25,15 @@ rgb(23, 37, 42);*/
   background-color: transparent;
   color: #fff;
   padding: 8px 20px;
-  font-size: 15px;
+  font-size: 17px;
   border: 1px solid var(--primary);
   transition: all 0.3s ease-out;
 }
 
 .btn--medium {
   padding: 8px 15px;
-  font-size: 15px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .btn--large {
@@ -46,8 +46,8 @@ rgb(23, 37, 42);*/
   border-radius: 4px;
   width: 100%;
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
   background-color: transparent;
   color: #fff;
   padding: 14px 20px;

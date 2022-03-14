@@ -1,13 +1,17 @@
-.form-becomehost {
-  padding: 5% 20%;
+#btn-createlisting {
+  padding: 20px 35px;
+  color: white;
+  font-size: 18px;
+  margin: 7% auto;
+  display: block;
+  background-color: rgb(159, 90, 253);
+  border-radius: 8px;
+  border: none;
+  font-weight: 600;
 }
 
-.btn-createlisting {
-  margin-top: 5% !important;
-  line-height: 2.5;
-  color: white;
-  font-weight: 500;
-  background-color: rgb(159, 90, 253);
+.form-becomehost {
+  padding: 5% 12%;
 }
 
 .container-contact-info {
@@ -19,7 +23,7 @@
 }
 
 .row-tags {
-  padding-top: 20px;
+  padding-top: 30px;
 }
 
 .subtitle {
@@ -32,10 +36,11 @@
 
 .tag-category {
   text-transform: uppercase;
-  color: rgb(165, 165, 165);
-  font-size: 13px;
+  color: rgb(109, 108, 108);
+  font-size: 14px;
   margin-bottom: 5px;
   letter-spacing: 0.5px;
+  font-weight: 500;
 }
 
 .title {
@@ -44,4 +49,71 @@
   font-size: 40px;
   text-align: center;
   padding-top: 4%;
+}
+
+@media screen and (max-width: 768px) {
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 14%;
+    padding-bottom: 10px;
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .form-becomehost {
+    padding: 5% 12%;
+  }
+
+  .subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 20px;
+    color: #2b7a78;
+  }
+
+  .tags-group {
+    margin-bottom: 30px;
+    max-width: 23%;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 27px;
+    text-align: center;
+    padding-top: 14%;
+    padding-bottom: 10px;
+    width: 83%;
+    margin: 0 auto;
+  }
+
+  .form-becomehost {
+    padding: 5% 12%;
+  }
+
+  .subtitle {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    padding-bottom: 20px;
+    color: #2b7a78;
+  }
+
+  #btn-createlisting {
+    padding: 15px 40px;
+    color: white;
+    font-size: 18px;
+    margin: 7% auto;
+    display: block;
+    background-color: rgb(159, 90, 253);
+    border-radius: 8px;
+    border: none;
+    font-weight: 600;
+  }
 }
