@@ -1,8 +1,9 @@
 import React from "react";
-import {Button} from "./Button";
 import "./BecomeHost.css";
+import {Link} from "react-router-dom";
 
 function BecomeHost() {
+
   return (
     <div>
       <div className="title">Offer to host your space to refugees in need</div>
@@ -11,21 +12,21 @@ function BecomeHost() {
           <div className="subtitle">Contact Information</div>
               <div className="form-row">
 
-                <div className="form-group col-md-6">
+                <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
                   <label for="inputFirstName">First Name</label>
                   <input type="text" className="form-control" required />
                 </div>
-              <div className="form-group col-md-6">
+              <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <label for="inputLastName">Last Name</label>
                 <input type="text" className="form-control" required/>
               </div>
             
-                <div className="form-group col-md-6">
+                <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
                   <label for="inputPhone">Phone Number</label>
                   <input type="tel" className="form-control" placeholder="e.g. #-###-###-####" required/>
                   <small><em>Note: include country code.</em></small>
                 </div>
-              <div className="form-group col-md-6">
+              <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <label for="inputEmail">Email</label>
                 <input type="email" className="form-control" required/>
               </div>
@@ -35,11 +36,11 @@ function BecomeHost() {
 
         <div className="subtitle">Create a Listing</div>
           <div className="form-row">
-            <div className="form-group col-6">
+            <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
               <label for="listing-title" className="field-title">Listing title</label>
               <input type="text" className="form-control" placeholder="Write something descriptive e.g. Safe Haven - 2 bedrooms" required/>
             </div>
-            <div className="form-group col-3">
+            <div className="form-group col-lg-3 col-md-3 col-sm-3 col-xs-3">
               <label for="accommodation-type-select" className="field-title">Accommodation Type</label>
               <select className="form-control">
                 <option>Entire place</option>
@@ -47,7 +48,7 @@ function BecomeHost() {
                 <option>Basement</option>
               </select>
             </div>
-          <div className="form-group col-3">
+          <div className="form-group col-lg-3 col-md-3 col-sm-3 col-xs-3">
               <label for="guest-select" className="field-title">Guests</label>
               <select className="form-control" required>
                 <option>1</option>
@@ -64,27 +65,27 @@ function BecomeHost() {
           </div>
           </div>
           <div className="form-row">
-          <div className="form-group col-6">
+          <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <label for="city" className="field-title">City</label>
             <input type="text" className="form-control" required/>
           </div>
-          <div className="form-group col-6">
+          <div className="form-group col-lg-6 col-md-6 col-sm-6 col-xs-6">
             <label for="province" className="field-title">Province</label>
             <input type="text" className="form-control" required/>
           </div>
           </div>
           <div className="form-row">
-            <div className="form-group col-12">
+            <div className="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <label for="desription" className="field-title">Description</label>
               <textarea className="form-control description-text" rows="3" required placeholder="Describe the space you are offering to provide potential guests a better idea of the accommodation details."></textarea>
           </div>
-          <div className="form-group col-12">
+          <div className="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <label for="tags" className="field-title">Tags</label>
               <div className="pb-3">Add tags to help potential guests find a suitable accommodation based on their needs.</div>
 
-                <div className="row justify-content-start row-tags">
+                <div className="row justify-content-center row-tags">
 
-                  <div className="col-2">
+                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 tags-group">
                     <div className="form-check">
                       <div className="tag-category">Preferences</div>
                         <input className="form-check-input" type="checkbox" value="kid-friendly" id="kid-friendly"/>
@@ -100,7 +101,7 @@ function BecomeHost() {
                     </div>
                   </div>
 
-                  <div className="col-2">
+                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 tags-group">
                     <div className="form-check">
                       <div className="tag-category">Supports</div>
                         <input className="form-check-input" type="checkbox" value="child-care" id="child-care"/>
@@ -116,7 +117,7 @@ function BecomeHost() {
                     </div>
                   </div>
 
-                 <div className="col-2">
+                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 tags-group">
                   <div className="form-check">
                     <div className="tag-category">Languages</div>
                        <input className="form-check-input" type="checkbox" value="arabic" id="arabic" />
@@ -142,7 +143,9 @@ function BecomeHost() {
               </div>
             </div>
           </div>
-          <Button buttonSize="btn--large">Create Listing</Button>
+            <Link to="/becomeahost" className="btn-link>">
+              <button id="btn-createlisting">Create Listing</button>
+            </Link>
       </form>
     </div>
   );
