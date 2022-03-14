@@ -2,7 +2,7 @@ import "./App.css";
 import Navbar from "./components/Navbar";
 import Home from './components/pages/Homepage/Home';
 import BecomeHost from "./components/BecomeHost";
-import FindHost from "./components/pages/FindHost/FindHost";
+import FindHost from "./components/FindHost";
 import Footer from "./components/pages/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 
