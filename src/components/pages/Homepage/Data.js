@@ -19,7 +19,7 @@ export const homeObjTwo = {
   topLine: '',
   headline: 'Help for people fleeing Ukraine',
   description:
-    'Right now, refugees fleeing from the war in Ukraine are in need of urgent temporary housing. Your space can provide comfort to people making a live-saving journey and be a powerful way of welcoming those fleeing to help integrate within the community faster.',
+    'Right now, refugees fleeing from the war in Ukraine are in need of urgent temporary housing. Your space can provide comfort to people making a live-saving journey and be a powerful way of welcoming those fleeing to help them integrate within the community faster.',
   buttonLabel: 'Learn More',
   imgStart: 'start',
   img: 'images/ukraine.svg',

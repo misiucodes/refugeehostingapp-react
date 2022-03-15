@@ -11,7 +11,7 @@
 }
 
 .form-becomehost {
-  padding: 5% 12%;
+  padding: 5% 25%;
 }
 
 .container-contact-info {
@@ -77,7 +77,7 @@
 
   .tags-group {
     margin-bottom: 30px;
-    max-width: 23%;
+    max-width: 100;
   }
 }
 
