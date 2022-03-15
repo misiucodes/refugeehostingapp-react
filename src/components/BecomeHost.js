@@ -83,9 +83,9 @@ function BecomeHost() {
             <label for="tags" className="field-title">Tags</label>
               <div className="pb-3">Add tags to help potential guests find a suitable accommodation based on their needs.</div>
 
-                <div className="row justify-content-center row-tags">
+                <div className="row justify-content-around row-tags">
 
-                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 tags-group">
+                  <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 tags-group">
                     <div className="form-check">
                       <div className="tag-category">Preferences</div>
                         <input className="form-check-input" type="checkbox" value="kid-friendly" id="kid-friendly"/>
@@ -101,7 +101,7 @@ function BecomeHost() {
                     </div>
                   </div>
 
-                  <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 tags-group">
+                  <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 tags-group">
                     <div className="form-check">
                       <div className="tag-category">Supports</div>
                         <input className="form-check-input" type="checkbox" value="child-care" id="child-care"/>
@@ -117,7 +117,7 @@ function BecomeHost() {
                     </div>
                   </div>
 
-                 <div className="col-lg-2 col-md-2 col-sm-2 col-xs-2 tags-group">
+                 <div className="col-lg-4 col-md-4 col-sm-4 col-xs-4 tags-group">
                   <div className="form-check">
                     <div className="tag-category">Languages</div>
                        <input className="form-check-input" type="checkbox" value="arabic" id="arabic" />
