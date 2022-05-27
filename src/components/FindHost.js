@@ -2,10 +2,11 @@ import React from "react";
 import "./FindHost.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
+// import SearchResults from "../SearchResults";
 
-export default function FindHost() {
-  return (
-    <>
+function FindHost() {
+
+    return (
     <div className="hero-container">
       <h4>Find a place to stay</h4>
         <div className="search-engine">
@@ -16,7 +17,10 @@ export default function FindHost() {
               </button>
           </form> 
         </div>
+
+        {/* <SearchResults /> */}
       </div>
-    </>
   );
 }
+
+export default FindHost;
