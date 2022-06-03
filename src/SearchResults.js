@@ -5,8 +5,7 @@ import { onSnapshot, collection } from "firebase/firestore";
 import "./SearchResults.css";
 
 export default function SearchResults() {
-  const [listings, setListings] = useState([]); // set to empty array so it doesn't return undefined upon first load
-  const [loading, setLoading] = useState(true);
+  const [listings, setListings] = useState([]);
 
   useEffect(
     () => 
@@ -16,7 +15,7 @@ export default function SearchResults() {
       []
       );
 
-  if (loading) {
+ {
 
     return (
   
@@ -24,7 +23,7 @@ export default function SearchResults() {
       {listings.map((listing) => (
 
         <div className="card" key={listing.id}>
-          <img className="card-img-top" src="images/basement.jpg" alt="Card image cap"/>
+          <img className="card-img-top" src="images/basement.jpg" alt="Basement apartment"/>
           <div className="card-body">
             <h5 className="card-title">{listing.ListingTitle}</h5>
             <p className="description">{listing.Description}</p>
