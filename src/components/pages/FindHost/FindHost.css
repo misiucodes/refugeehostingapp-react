@@ -1,6 +1,13 @@
+h4 {
+  font-size: 2.75rem;
+  padding: 2rem auto !important;
+  padding-bottom: 2rem;
+  text-align: center;
+}
+
 .hero-container {
   /* background: url("/images/home.jpg") center center/cover no-repeat; */
-  height: 100vh !important;
+  /* height: 100vh !important; */
   background-position: 0px -194px !important;
   width: 100%;
   display: flex;
@@ -10,12 +17,13 @@
   box-shadow: inset 0 0 0 1000px rgba(216, 199, 230, 0.6);
 }
 
-.hero-container > h4 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 50px;
-  font-weight: 700;
-  color: #fff;
-  margin-top: -321px;
+.search-bar-container {
+  width:60%;
+  margin: 3rem auto;
+}
+
+.search-results-container {
+  display: flex;
 }
 
 .hero-container > .form-findhost {
@@ -25,8 +33,8 @@
 }
 
 .search-engine {
-  width: 50%;
-  margin-top: 30px;
+  /* width: 100%; */
+  margin-top: 0px;
 }
 
 input[type="search"]::-webkit-search-decoration,

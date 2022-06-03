@@ -1,4 +1,4 @@
-import db from "./firebase";
+import db from "../firebase";
 import React from "react";
 import { useEffect, useState } from "react";
 import { onSnapshot, collection } from "firebase/firestore";
@@ -14,14 +14,12 @@ export default function SearchResults() {
       ),
       []
       );
-
- {
-
-    return (
-  
-    <div className="card-deck listing-container">
-      {listings.map((listing) => (
-
+      
+      return (
+        
+      <div className="card-deck listing-container">
+        {listings.map((listing) => (
+        
         <div className="card" key={listing.id}>
           <img className="card-img-top" src="images/basement.jpg" alt="Basement apartment"/>
           <div className="card-body">
@@ -40,8 +38,8 @@ export default function SearchResults() {
             </div>
           </div>
         </div>
-    ))}
+      ))}
     </div>  
-    );
-    }
-  }
+  );
+};
+  

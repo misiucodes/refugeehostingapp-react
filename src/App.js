@@ -5,7 +5,7 @@ import BecomeHost from "./components/pages/BecomeHost/BecomeHost";
 import FindHost from "./components/pages/FindHost/FindHost";
 import Footer from "./components/Footer";
 import { Route, Routes } from "react-router-dom";
-import SearchResults from "./SearchResults";
+
 
 export default function App() {
   return (
@@ -16,7 +16,6 @@ export default function App() {
         <Route exact path="/becomeahost" element={<BecomeHost />} />
         <Route exact path="/findahost" element={<FindHost />} />
       </Routes>
-      <SearchResults />
       <Footer />
     </div>
   );
